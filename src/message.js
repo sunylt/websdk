@@ -115,6 +115,7 @@ var CryptoJS = require('crypto-js');
             , lat: opt.lat
             , lng: opt.lng
             , ext: opt.ext || {}
+            , success: opt.success
         };
     };
 
